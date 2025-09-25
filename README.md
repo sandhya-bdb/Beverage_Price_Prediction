@@ -65,14 +65,13 @@ Prediction logic modularized in prediction_helper.py
 
 
 
-## file structure
+## File Structure
 
-📁 artifacts/
-    └── model.pkl               ← Pretrained model file
+*   `artifacts/`
+    *   `├── model.pkl` ← Pretrained model file
+*   `main.py` ← Streamlit frontend
+*   `prediction_helper.py` ← Input preprocessing and prediction logic
 
-📄 main.py                      ← Streamlit frontend
-
-📄 prediction_helper.py         ← Input preprocessing and prediction logic
 
 ## How to Run
 pip install -r requirements.txt
