@@ -62,9 +62,6 @@ Preprocessing includes label encoding, one-hot encoding, and feature engineering
 Prediction logic modularized in prediction_helper.py
 
 
-
-
-
 ## File Structure
 
 *   `artifacts/`
@@ -73,7 +70,5 @@ Prediction logic modularized in prediction_helper.py
 *   `prediction_helper.py` ← Input preprocessing and prediction logic
 
 
-## How to Run
-pip install -r requirements.txt
 
 streamlit run main.py
