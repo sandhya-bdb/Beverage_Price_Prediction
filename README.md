@@ -12,18 +12,18 @@ A Streamlit web application that predicts the preferred price range for a **new 
 
 ### User Input Fields  
 The application collects the following categories of consumer information:  
-**Demographic Information**  
+#### Demographic Information  
 - Age  
 - Gender  
 - Geographic Zone (regional classification)  
 - Occupation category  
 
-**Economic & Behavioral Data**  
+#### Economic & Behavioral Data 
 - Income level classification  
 - Consumption habits & frequency  
 - Brand preferences and awareness levels  
 
-**Personal Preferences**  
+#### Personal Preferences 
 - Health concerns and dietary considerations  
 - Flavor preferences and taste profiles  
 - Packaging choices and format preferences  
@@ -72,25 +72,25 @@ The model outputs one of four distinct price segments:
    
 ## ✅ Usage Example
 
-User opens the form UI and enters: Age = 28, Gender = Male, Zone = Urban East, Income level = High, Consumption frequency = Weekly, etc.
+- User opens the form UI and enters: Age = 28, Gender = Male, Zone = Urban East, Income level = High, Consumption frequency = Weekly, etc.
 
-The model computes CF/AB, ZAS, BSI features, feeds them (along with standard inputs) into the classifier.
+- The model computes CF/AB, ZAS, BSI features, feeds them (along with standard inputs) into the classifier.
 
-The result: the predicted bracket is $150–200 (Premium range).
+- The result: the predicted bracket is $150–200 (Premium range).
 
-The user can view the reasoning/feature importances and export the result for further analysis.
+- The user can view the reasoning/feature importances and export the result for further analysis.
 
 ## 🔮 Future Improvements
 
-Expand dataset with more beverage categories (carbonated, functional, alcoholic, etc.) and market regions.
+- Expand dataset with more beverage categories (carbonated, functional, alcoholic, etc.) and market regions.
 
-Experiment with advanced model architectures (e.g., ensemble methods, neural networks) and hyper-parameter tuning.
+- Experiment with advanced model architectures (e.g., ensemble methods, neural networks) and hyper-parameter tuning.
 
-Deploy as a web-service (Docker container or cloud) with REST API for integration into product-management dashboards.
+- Deploy as a web-service (Docker container or cloud) with REST API for integration into product-management dashboards.
 
-Add active-learning loop: collect user feedback to continuously refine the model and expand segment definitions.
+- Add active-learning loop: collect user feedback to continuously refine the model and expand segment definitions.
 
-Improve explainability: provide more detailed insights on “why” a given price bracket was assigned (e.g., SHAP values).
+- Improve explainability: provide more detailed insights on “why” a given price bracket was assigned (e.g., SHAP values).
 
 
 streamlit run main.py
