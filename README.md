@@ -54,7 +54,7 @@ The model outputs one of four distinct price segments:
 ## 🧠 Model & Pipeline  
 - Pre-trained machine-learning classification model loaded using **pickle**.  
 - Pre-processing pipeline includes label-encoding, one-hot encoding, and engineered features (CF/AB, ZAS, BSI).  
-- Prediction logic modularised in `prediction_helper.py`.
+
 
 ---
 
